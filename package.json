@@ -1,0 +1,24 @@
+{
+  "name": "tarea4-nuxt-pokemon",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.0.0",
+    "@pinia/nuxt": "^0.10.1",
+    "nuxt": "^3.13.2",
+    "pinia": "^3.0.1",
+    "pinia-plugin-persistedstate": "^4.1.3",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.4"
+  }
+}
