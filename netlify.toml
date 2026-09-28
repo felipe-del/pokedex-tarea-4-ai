@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build"
+  command = "npm run generate"
   publish = ".output/public"
 
-[[plugins]]
-  package = "@netlify/plugin-nuxt"
+[build.environment]
+  NODE_VERSION = "22"
+  NITRO_PRESET = "static"
